@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif;
+  background: #f8f9fb;
+  color: #1a1a1a;
+  -webkit-font-smoothing: antialiased;
+}
+
+@media (max-width: 768px) {
+  /* Responsive grid overrides handled inline with JS */
+}
