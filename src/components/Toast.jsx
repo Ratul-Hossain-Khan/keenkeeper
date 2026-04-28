@@ -32,6 +32,7 @@ export default function Toast({ message, onClose }) {
       transform: visible ? "translateY(0)" : "translateY(10px)",
       transition: "all 0.3s ease",
     }}>
+      
       <CheckCircle size={16} />
       {message}
     </div>
